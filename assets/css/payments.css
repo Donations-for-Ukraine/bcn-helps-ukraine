@@ -1,0 +1,67 @@
+.donationDescription a {
+  text-decoration: underline;
+}
+
+.donationDescription {
+  margin: 16px 0;
+}
+
+.donationProgress {
+  margin: 16px 0;
+}
+
+.progressBarContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progressBar {
+  height: 40px;
+  flex: 1;
+  line-height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fdd835;
+  background: #fff9c4;
+  color: #000;
+}
+
+.progressBarIndicator {
+  height: 38px;
+  background: #fdd835;
+  text-align: center;
+  width: 15%;
+}
+
+.progressBarLabel {
+
+}
+
+
+.paymentButtonContainer {
+  margin: 16px 0;
+}
+
+.paymentButton {
+  min-width: 64px;
+  margin: 4px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.paymentInfo {
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: var(--radius);
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.paymentInfo a {
+  color: #004085;
+  text-decoration: underline;
+}
