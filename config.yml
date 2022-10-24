@@ -14,10 +14,10 @@ minify:
 
 languages:
     en:
-        languageName: ":gb:"
+        LanguageName: ":gb: English"
         weight: 1
     es:
-        languageName: ":es:"
+        LanguageName: ":es: Spanish"
         languageAltTitle: Spanish
         weight: 2
 
@@ -31,6 +31,8 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: light
   disableThemeToggle: false
+
+  displayFullLangName: true
 
   ShowReadingTime: false
   ShowShareButtons: true
