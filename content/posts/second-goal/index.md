@@ -13,4 +13,4 @@ One of the drones available on the market and proven to be most effective on the
 
 ![Drone](./mavic.jpg 'DJI Mavic 3')
 
-The second goal we are aiming is to buy five drones, but as the squad urgently needs them, we will purchase and ship each unit as soon as we collect enough money.
+The second goal we are aiming for is to buy five drones, but as the squad urgently needs them, we will purchase and ship each unit as soon as we collect enough money.

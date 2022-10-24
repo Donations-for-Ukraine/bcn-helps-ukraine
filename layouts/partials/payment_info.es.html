@@ -1,0 +1,34 @@
+{{ $built := resources.Get "js/payments.es.js"}}
+<script src="{{ $built.RelPermalink }}" defer></script>
+
+{{ $built := resources.Get "css/payments.css"}}
+<link rel="stylesheet" href="{{ $built.RelPermalink }}">
+
+<div>
+  <h3>Actualización de donaciones</h3>
+  <div class="donationDescription">
+
+    Nuestro objetivo actual es reunir dinero para comprar un dron "DJI Mavic 3" para ZSU. Consulte nuestra <a
+      href="/es/posts/second-goal/">última publicación</a> para obtener más información.
+
+  </div>
+  <h4>Progreso de la meta: (159 EUR / 1950 EUR)</h4>
+  <div class="donationProgress">
+    <div class="progressBarContainer">
+      <div class="progressBar">
+        <div class="progressBarIndicator"><span class="progressBarLabel">8%</span></div>
+      </div>
+      <div><b>1950 EUR</b></div>
+    </div>
+  </div>
+
+  <h3>Donar</h3>
+  <div class="paymentButtonContainer">
+    <button class="paymentButton bizum" id="bizumButton">Bizum</button>
+    <button class="paymentButton bank" id="bankButton">Transferencia bancaria</button>
+    <button class="paymentButton card" id="cardButton">Tarjeta</button>
+    <button class="paymentButton paypal" id="paypalButton">Paypal</button>
+    <button class="paymentButton paypal" id="cryptoButton">Crypto</button>
+  </div>
+  <div id="paymentInfoBlock"></div>
+</div>

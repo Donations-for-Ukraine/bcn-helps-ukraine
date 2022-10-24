@@ -11,6 +11,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+
+languages:
+    en:
+        languageName: ":gb:"
+        weight: 1
+    es:
+        languageName: ":es:"
+        languageAltTitle: Spanish
+        weight: 2
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: BCN helps Ukraine
