@@ -1,4 +1,4 @@
-title: BCN helps Ukraine
+title: Helping Ukraine
 paginate: 5
 theme: PaperMod
 
@@ -23,8 +23,8 @@ languages:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: BCN helps Ukraine
-  description: "BCN helps Ukraine"
+  title: Helping Ukraine
+  description: "Helping Ukraine"
   keywords: []
   author:
   # author: ["Me", "You"] # multiple authors
