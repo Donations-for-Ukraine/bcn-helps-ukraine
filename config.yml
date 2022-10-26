@@ -63,7 +63,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "BCN Helps Ukraine"
+    Title: "Helping Ukraine"
     Content:
 
   cover:
