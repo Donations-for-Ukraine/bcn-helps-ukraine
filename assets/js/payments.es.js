@@ -4,6 +4,7 @@ const cardButton = document.getElementById('cardButton')
 const paypalButton = document.getElementById('paypalButton')
 const cryptoButton = document.getElementById('cryptoButton')
 const infoBlock = document.getElementById('paymentInfoBlock')
+const privatButton = document.getElementById('privatButton')
 
 const bizumPaymentInfo = `<div class="paymentInfo">Bizum: ${620} ${844} ${711}</div>`
 const bankPaymentInfo = `<div class="paymentInfo">
@@ -16,6 +17,9 @@ const cardPaymentInfo = `<div class="paymentInfo">Sigue el enlace para donar con
 const paypalPaymentInfo = `<div class="paymentInfo">Siga el enlace para donar a través de PayPal: <a href="https://www.paypal.me/dmitryzaets">https://www.paypal.me/dmitryzaets</a></div>`
 const cryptoPaymentInfo = `<div class="paymentInfo">
   <div>E${'T'}H: ${'0xfacD0FBCb'}${'2E9b8e'}2D2C90eDEeFC${'9562b77'}986e04</div>
+</div>`
+const privatPaymentInfo = `<div class="paymentInfo">
+  <div>Ca${'r'}d: ${'516'}8752${'004217'}504</div>
 </div>`
 
 bizumButton.onclick = () => {
@@ -36,4 +40,8 @@ paypalButton.onclick = () => {
 
 cryptoButton.onclick = () => {
   infoBlock.innerHTML = cryptoPaymentInfo
+}
+
+privatButton.onclick = () => {
+  infoBlock.innerHTML = privatPaymentInfo
 }
