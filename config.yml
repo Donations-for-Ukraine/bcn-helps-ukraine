@@ -31,8 +31,11 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: light
   disableThemeToggle: false
-
   displayFullLangName: true
+
+  # Goal params
+  goalTotal: 1950
+  goalCurrent: 210
 
   ShowReadingTime: false
   ShowShareButtons: true

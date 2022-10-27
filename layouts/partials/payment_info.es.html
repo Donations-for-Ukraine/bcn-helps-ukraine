@@ -1,3 +1,6 @@
+{{- $goalPercentage := div (mul site.Params.goalCurrent 100)
+site.Params.goalTotal }}
+
 {{ $built := resources.Get "js/payments.es.js"}}
 <script src="{{ $built.RelPermalink }}" defer></script>
 
@@ -12,13 +15,15 @@
     Consulte nuestra <a href="/es/posts/second-goal/">última publicación</a> para obtener más información.
 
   </div>
-  <h4>Progreso de la meta: (159 EUR / 1950 EUR)</h4>
+  <h4>Progreso de la meta: ({{ site.Params.goalCurrent }} EUR / {{ site.Params.goalTotal }} EUR)</h4>
   <div class="donationProgress">
     <div class="progressBarContainer">
       <div class="progressBar">
-        <div class="progressBarIndicator"><span class="progressBarLabel">8%</span></div>
+        <div class="progressBarIndicator" style="width: max({{ $goalPercentage }}%, 5%)"><span
+            class="progressBarLabel">{{ $goalPercentage
+            }}%</span></div>
       </div>
-      <div><b>1950 EUR</b></div>
+      <div><b> {{ site.Params.goalTotal }} EUR</b></div>
     </div>
   </div>
 
