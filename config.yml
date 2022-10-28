@@ -35,7 +35,7 @@ params:
 
   # Goal params
   goalTotal: 1950
-  goalCurrent: 210
+  goalCurrent: 260
 
   ShowReadingTime: false
   ShowShareButtons: true
