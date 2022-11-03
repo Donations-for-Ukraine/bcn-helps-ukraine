@@ -1,5 +1,5 @@
 ---
-title: 'Objetivo actual'
+title: 'Segundo objetivo - dron DJI Mavic 3'
 date: 2022-10-22T17:00:00+02:00
 ---
 

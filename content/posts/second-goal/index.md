@@ -1,5 +1,5 @@
 ---
-title: 'Current Goal'
+title: 'Second goal - DJI Mavic 3 drone'
 date: 2022-10-22T17:00:00+02:00
 ---
 

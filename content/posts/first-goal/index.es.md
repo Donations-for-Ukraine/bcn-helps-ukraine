@@ -1,5 +1,5 @@
 ---
-title: 'Nuestro primer objetivo'
+title: 'Primer objetivo - estaciónes de radio, guantes y mochila'
 date: 2022-06-15T17:00:00+02:00
 ---
 

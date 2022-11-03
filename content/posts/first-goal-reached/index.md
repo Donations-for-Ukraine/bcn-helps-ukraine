@@ -1,5 +1,5 @@
 ---
-title: 'Reaching the first goal'
+title: 'First goal reached!'
 date: 2022-07-15T17:00:00+02:00
 ---
 

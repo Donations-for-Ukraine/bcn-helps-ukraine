@@ -7,14 +7,11 @@ site.Params.goalTotal }}
 {{ $built := resources.Get "css/payments.css"}}
 <link rel="stylesheet" href="{{ $built.RelPermalink }}">
 
-<div>
-  <h3>Donations update</h3>
+<div class="donationsContainer">
+  <h3>Current donation goal</h3>
   <div class="donationDescription">
-    Our current goal is to gather money to buy one "DJI Mavic 3" drone for ZSU (Armed Forces of Ukraine). See our <a
-      href="/posts/second-goal/">latest
-      post</a> for more information.
+    <b>DJI Mavic 3 Drones</b> <a href="/posts/second-goal/">Read more</a>
   </div>
-  <h4>Goal Progress: ({{ site.Params.goalCurrent }} EUR / {{ site.Params.goalTotal }} EUR)</h4>
   <div class="donationProgress">
     <div class="progressBarContainer">
       <div class="progressBar">
@@ -22,11 +19,14 @@ site.Params.goalTotal }}
             class="progressBarLabel">{{ $goalPercentage
             }}%</span></div>
       </div>
-      <div><b> {{ site.Params.goalTotal }} EUR</b></div>
+      <div>{{ site.Params.goalTotal }} €</div>
     </div>
   </div>
+  <div class="donationsUpdate">{{ site.Params.goalCurrent }} € collected, {{ site.Params.goalDonators }} donators,
+    updated on {{ now.Format
+    "02.01.2006"}}</div>
 
-  <h3>Donate</h3>
+  <div>Donate now</div>
   <div class="paymentButtonContainer">
     <button class="paymentButton bizum" id="bizumButton">Bizum</button>
     <button class="paymentButton bank" id="bankButton">Bank Transfer</button>

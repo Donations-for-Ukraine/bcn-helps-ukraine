@@ -78,3 +78,15 @@ pre:hover .copy-code {
     font-weight: 700;
     color: #1a1716;
 }
+
+.home-info {
+
+}
+
+.home-info ul {
+    margin: 18px;
+}
+
+.posts-title {
+    margin-bottom: 18px;
+}

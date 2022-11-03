@@ -6,6 +6,15 @@
     <div class="entry-content">
         {{ .Content | markdownify }}
     </div>
+    <div class="home-info">
+        Donate directly to the Armed Forces of Ukraine
+        <ul>
+            <li>100% of your donation goes to buy the equipment needed on the field</li>
+            <li>We are in direct contact with one of the battalions and we know what's needed right now. Read our story
+            </li>
+            <li>No bureaucracy, no marketing, no intermediaries</li>
+        </ul>
+    </div>
     <div class="entry-info">
         {{ partial "payment_info.html"}}
     </div>
@@ -13,4 +22,5 @@
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
 </article>
+<h2 class="posts-title">Our latest updates</h2>
 {{- end -}}

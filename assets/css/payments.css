@@ -1,3 +1,14 @@
+.donationsContainer {
+  border-radius: var(--radius);
+  padding: var(--gap);
+  background: rgba(253, 243, 2, 0.1);
+  border: 1px solid #EEEEEE;
+}
+
+.donationDescription b {
+  color: #007bff;
+}
+
 .donationDescription a {
   text-decoration: underline;
 }
@@ -7,6 +18,10 @@
 }
 
 .donationProgress {
+  margin: 16px 0;
+}
+
+.donationsUpdate {
   margin: 16px 0;
 }
 
@@ -29,11 +44,20 @@
 .progressBarIndicator {
   height: 38px;
   background: #fdd835;
-  text-align: center;
+  text-align: center;  
 }
 
 .progressBarLabel {
+  font-size: 13px;
+  line-height: 38px;
+}
 
+
+
+@media (min-width: 768px) {
+  .progressBarLabel {
+    font-size: 18px;
+  }
 }
 
 

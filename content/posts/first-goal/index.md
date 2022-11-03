@@ -1,5 +1,5 @@
 ---
-title: 'Our First Goal'
+title: 'First goal - radio stations, gloves and a backpack'
 date: 2022-06-15T17:00:00+02:00
 ---
 

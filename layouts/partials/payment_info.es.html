@@ -7,15 +7,11 @@ site.Params.goalTotal }}
 {{ $built := resources.Get "css/payments.css"}}
 <link rel="stylesheet" href="{{ $built.RelPermalink }}">
 
-<div>
-  <h3>Actualización de donaciones</h3>
+<div class="donationsContainer">
+  <h3>Objetivo de donación actual</h3>
   <div class="donationDescription">
-
-    Nuestro objetivo actual es reunir dinero para comprar un dron "DJI Mavic 3" para ZSU (Fuerzas Armadas de Ucrania).
-    Consulte nuestra <a href="/es/posts/second-goal/">última publicación</a> para obtener más información.
-
+    <b>DJI Mavic 3 Drones</b> <a href="/es/posts/second-goal/">Lee mas</a>
   </div>
-  <h4>Progreso de la meta: ({{ site.Params.goalCurrent }} EUR / {{ site.Params.goalTotal }} EUR)</h4>
   <div class="donationProgress">
     <div class="progressBarContainer">
       <div class="progressBar">
@@ -23,9 +19,12 @@ site.Params.goalTotal }}
             class="progressBarLabel">{{ $goalPercentage
             }}%</span></div>
       </div>
-      <div><b> {{ site.Params.goalTotal }} EUR</b></div>
+      <div>{{ site.Params.goalTotal }} €</div>
     </div>
   </div>
+  <div class="donationsUpdate">{{ site.Params.goalCurrent }} € recogido, {{ site.Params.goalDonators }} donantes,
+    actualizado en {{ now.Format
+    "02.01.2006"}}</div>
 
   <h3>Donar</h3>
   <div class="paymentButtonContainer">
@@ -34,7 +33,6 @@ site.Params.goalTotal }}
     <button class="paymentButton card" id="cardButton">Tarjeta</button>
     <button class="paymentButton paypal" id="paypalButton">Paypal</button>
     <button class="paymentButton paypal" id="cryptoButton">Crypto</button>
-    <button class="paymentButton privat" id="privatButton">PrivatBank</button>
   </div>
   <div id="paymentInfoBlock"></div>
 </div>

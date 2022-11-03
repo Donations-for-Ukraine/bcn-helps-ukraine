@@ -1,6 +1,7 @@
 title: Helping Ukraine
 paginate: 5
 theme: PaperMod
+baseURL: https://helpingua.es/
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -36,6 +37,7 @@ params:
   # Goal params
   goalTotal: 1950
   goalCurrent: 260
+  goalDonators: 3
 
   ShowReadingTime: false
   ShowShareButtons: true
