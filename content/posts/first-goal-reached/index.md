@@ -13,6 +13,8 @@ They've mentioned that they need extra gloves and that tactical backpacks are al
 
 As soon as everything arrived, I had to send it to Ukraine, and one week later, it reached the squad in Ukraine.
 
+{{< vimeo 768198960 >}}
+
 ### Numbers:
 
 - 7x DMR Radio Stations: **899,95 EUR**

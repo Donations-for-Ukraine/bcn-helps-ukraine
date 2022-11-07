@@ -13,6 +13,8 @@ Mencionaron que necesitaban guantes adicionales y que las mochilas tácticas sie
 
 Tan pronto como llegó el pedido lo enviamos y en una semana llegó al batallón en Ucrania.
 
+{{< vimeo 768198960 >}}
+
 ### Números:
 
 - 7 Estación de radio DMR: **899,95 EUR**
