@@ -36,8 +36,8 @@ params:
 
   # Goal params
   goalTotal: 1950
-  goalCurrent: 618
-  goalDonators: 9
+  goalCurrent: 708
+  goalDonators: 10
 
   ShowReadingTime: false
   ShowShareButtons: true
