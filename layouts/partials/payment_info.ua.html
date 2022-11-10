@@ -1,0 +1,39 @@
+{{- $goalPercentage := div (mul site.Params.goalCurrent 100)
+site.Params.goalTotal }}
+
+{{ $built := resources.Get "js/payments.ua.js"}}
+<script src="{{ $built.RelPermalink }}" defer></script>
+
+{{ $built := resources.Get "css/payments.css"}}
+<link rel="stylesheet" href="{{ $built.RelPermalink }}">
+
+<div class="donationsContainer">
+  <h3>Поточний збір</h3>
+  <div class="donationDescription">
+    <b>DJI Mavic 3 Drones</b> <a href="/ua/posts/second-goal/">Детальніше</a>
+  </div>
+  <div class="donationProgress">
+    <div class="progressBarContainer">
+      <div class="progressBar">
+        <div class="progressBarIndicator" style="width: max({{ $goalPercentage }}%, 5%)"><span
+            class="progressBarLabel">{{ $goalPercentage
+            }}%</span></div>
+      </div>
+      <div>{{ site.Params.goalTotal }} €</div>
+    </div>
+  </div>
+  <div class="donationsUpdate">{{ site.Params.goalCurrent }} € зібрано, {{ site.Params.goalDonators }} донатів,
+    оновлено {{ now.Format
+    "02.01.2006"}}</div>
+
+  <div>Зробити внесок</div>
+  <div class="paymentButtonContainer">
+    <button class="paymentButton card" id="cardButton">Картка (МоноБанка)</button>
+    <button class="paymentButton privat" id="privatButton">ПриватБанк</button>
+    <button class="paymentButton bizum" id="bizumButton">Bizum</button>
+    <button class="paymentButton bank" id="bankButton">Переказ із закордону</button>
+    <button class="paymentButton paypal" id="paypalButton">Paypal</button>
+    <button class="paymentButton crypto" id="cryptoButton">Crypto</button>
+  </div>
+  <div id="paymentInfoBlock"></div>
+</div>

@@ -1,0 +1,29 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <div class="home-info">
+        Ми невелика команда волонтерів, яка базується у Барселоні.
+        Метою цього проєкту є збір коштів на потреби захисників України.<br />
+        Усі зібрані кошти призначені виключно для придбання необхідного спорядження,
+        яке прямує безпосередньо військовослужбовцям Збройних Сил України:
+        <ul>
+            <li>100% ваших донатів йде на закупівлю обладнання, яке необхідно на полі бою</li>
+            <li>Ми знаходимося у прямому контакті з одним із батальйонів, і знаємо, що потрібно
+                прямо зараз</li>
+            <li>Без бюрократії, без маркетингу, без посередників</li>
+        </ul>
+    </div>
+    <div class="entry-info">
+        {{ partial "payment_info.ua.html"}}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer>
+</article>
+<h2 class="posts-title">Наші останні оновлення</h2>
+{{- end -}}

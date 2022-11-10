@@ -15,12 +15,16 @@ minify:
 
 languages:
     en:
-        LanguageName: ":gb: English"
+        LanguageName: ":gb: EN"
         weight: 1
     es:
-        LanguageName: ":es: Spanish"
+        LanguageName: ":es: ES"
         languageAltTitle: Spanish
         weight: 2
+    ua:
+        LanguageName: ":flag_ua: UA"
+        languageAltTitle: Ukrainian
+        weight: 3
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

@@ -1,0 +1,39 @@
+{{- $goalPercentage := div (mul site.Params.goalCurrent 100)
+site.Params.goalTotal }}
+
+{{ $built := resources.Get "js/payments.js"}}
+<script src="{{ $built.RelPermalink }}" defer></script>
+
+{{ $built := resources.Get "css/payments.css"}}
+<link rel="stylesheet" href="{{ $built.RelPermalink }}">
+
+<div class="donationsContainer">
+  <h3>Current donation goal</h3>
+  <div class="donationDescription">
+    <b>DJI Mavic 3 Drones</b> <a href="/posts/second-goal/">Read more</a>
+  </div>
+  <div class="donationProgress">
+    <div class="progressBarContainer">
+      <div class="progressBar">
+        <div class="progressBarIndicator" style="width: max({{ $goalPercentage }}%, 5%)"><span
+            class="progressBarLabel">{{ $goalPercentage
+            }}%</span></div>
+      </div>
+      <div>{{ site.Params.goalTotal }} €</div>
+    </div>
+  </div>
+  <div class="donationsUpdate">{{ site.Params.goalCurrent }} € collected, {{ site.Params.goalDonators }} donators,
+    updated on {{ now.Format
+    "02.01.2006"}}</div>
+
+  <div>Donate now</div>
+  <div class="paymentButtonContainer">
+    <button class="paymentButton bizum" id="bizumButton">Bizum</button>
+    <button class="paymentButton bank" id="bankButton">Bank Transfer</button>
+    <button class="paymentButton card" id="cardButton">Card</button>
+    <button class="paymentButton paypal" id="paypalButton">Paypal</button>
+    <button class="paymentButton crypto" id="cryptoButton">Crypto</button>
+    <button class="paymentButton privat" id="privatButton">PrivatBank</button>
+  </div>
+  <div id="paymentInfoBlock"></div>
+</div>
