@@ -45,7 +45,8 @@
             {{ $asset := resources.Get "/logo.png" }}
             {{ $img := $asset.Fit "64x64" }}
             {{- $label_text := (site.Params.label.text | default site.Title) }}
-            <a class="logo-link" href="/"><img alt="logo" src="{{ $asset.RelPermalink }}" />{{$label_text}}</a>
+            <a class="logo-link" href="{{ "" | absLangURL }}"><img alt="logo"
+                    src="{{ $asset.RelPermalink }}" />{{$label_text}}</a>
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
