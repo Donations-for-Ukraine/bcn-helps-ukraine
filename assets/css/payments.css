@@ -1,7 +1,7 @@
 .donationsContainer {
   border-radius: var(--radius);
   padding: var(--gap);
-  background: rgba(253, 243, 2, 0.1);
+  background: var(--donation-bg);
   border: 1px solid #EEEEEE;
 }
 
