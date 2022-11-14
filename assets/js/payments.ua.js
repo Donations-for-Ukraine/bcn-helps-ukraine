@@ -23,10 +23,6 @@ const privatPaymentInfo = `<div class="paymentInfo">
   <div>Номер кар${'т'}ка: ${'516'}8752${'004217'}504</div>
 </div>`
 
-bizumButton.onclick = () => {
-  infoBlock.innerHTML = bizumPaymentInfo
-}
-
 bankButton.onclick = () => {
   infoBlock.innerHTML = bankPaymentInfo
 }

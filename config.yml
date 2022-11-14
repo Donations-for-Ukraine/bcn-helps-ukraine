@@ -25,6 +25,10 @@ languages:
         LanguageName: ":flag_ua: UA"
         languageAltTitle: Ukrainian
         weight: 3
+    pl:
+        LanguageName: ":flag_pl: PL"
+        languageAltTitle: Polish
+        weight: 4
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
