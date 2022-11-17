@@ -12,40 +12,39 @@ minify:
   disableXML: true
   minifyOutput: true
 
-
 languages:
-    en:
-        LanguageName: ":gb: EN"
-        weight: 1
-    es:
-        LanguageName: ":es: ES"
-        languageAltTitle: Spanish
-        weight: 2
-    ua:
-        LanguageName: ":flag_ua: UA"
-        languageAltTitle: Ukrainian
-        weight: 3
-    pl:
-        LanguageName: ":flag_pl: PL"
-        languageAltTitle: Polish
-        weight: 4
+  en:
+    LanguageName: ':gb: EN'
+    weight: 1
+  es:
+    LanguageName: ':es: ES'
+    languageAltTitle: Spanish
+    weight: 2
+  ua:
+    LanguageName: ':flag_ua: UA'
+    languageAltTitle: Ukrainian
+    weight: 3
+  pl:
+    LanguageName: ':flag_pl: PL'
+    languageAltTitle: Polish
+    weight: 4
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Helping Ukraine
-  description: "Helping Ukraine"
+  description: 'Helping Ukraine'
   keywords: []
   author:
   # author: ["Me", "You"] # multiple authors
-  DateFormat: "January 2, 2006"
+  DateFormat: 'January 2, 2006'
   defaultTheme: light
   disableThemeToggle: false
   displayFullLangName: true
 
   # Goal params
   goalTotal: 1950
-  goalCurrent: 790
-  goalDonators: 13
+  goalCurrent: 814
+  goalDonators: 17
 
   ShowReadingTime: false
   ShowShareButtons: true
@@ -66,17 +65,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-
+    favicon: '<link / abs url>'
+    favicon16x16: '<link / abs url>'
+    favicon32x32: '<link / abs url>'
+    apple_touch_icon: '<link / abs url>'
+    safari_pinned_tab: '<link / abs url>'
 
   # home-info mode
   homeInfoParams:
-    Title: "Helping Ukraine"
+    Title: 'Helping Ukraine'
     Content:
 
   cover:
