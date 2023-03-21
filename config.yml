@@ -42,9 +42,9 @@ params:
   displayFullLangName: true
 
   # Goal params
-  goalTotal: 3900
-  goalCurrent: 2980
-  goalDonators: 207
+  goalTotal: 1898
+  goalCurrent: 1407
+  goalDonators: 212
 
   ShowReadingTime: false
   ShowShareButtons: true
