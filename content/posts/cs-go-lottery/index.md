@@ -1,7 +1,6 @@
 ---
 title: 'Collaboration with esports analyst Oleksandr "petr1k" Petryk'
 date: 2022-12-22T17:00:00+02:00
-draft: true
 ---
 
 ![](./tg-logo.jpeg "petr1k's Telegram Channel")
@@ -24,5 +23,4 @@ Within less than a week, **172 people** participated in the lottery with a total
 
 ![Lottery Summary](./lottery-summary.png 'Lottery Summary')
 
-With all the donations that we received before + the help of Oleksandr's lottery, and all the participants, we were able to buy the first DJI Mavic 3 Drone.
-Big Thanks to everyone who participated!
+With all the donations we received before + the help of Oleksandr's lottery, and all the participants, we could buy the first DJI Mavic 3 Drone. Big Thanks to everyone who participated!
